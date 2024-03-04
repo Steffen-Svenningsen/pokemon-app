@@ -36,7 +36,7 @@ const getNewPokemon = () => {
   align-items: center
   font-family: "Helvetica", sans-serif
   text-align: center
-  background-image: url('../../public/background.webp')
+  background-image: url('/background.webp')
   background-size: cover
   background-position: center top
 
@@ -87,7 +87,7 @@ const getNewPokemon = () => {
     bottom: 2rem
 
     &::before
-      content: url(../../public/favicon.ico)
+      content: url(/favicon.ico)
       position: absolute
       z-index: -1
       top: -10px
